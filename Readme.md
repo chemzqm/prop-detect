@@ -16,5 +16,13 @@ var transform = detect.transform
 var transition = detect.transition
 var touchAction = detect.touchAction
 var transitionend = detect.transitionend
-var has3d = detect.has3d
+var has3d = detect.has3d // true or false
 ```
+
+## API
+
+* `transform` style name
+* `transition` style name
+* `touchAction` style name
+* `transitionend` event name
+* `has3d` true of false
