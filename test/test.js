@@ -12,7 +12,11 @@ describe('prop-detect', function() {
   })
 
   it('should be touchAction', function () {
-    assert.equal('touchAction', detect.touchAction)
+    if (detect.touchAction) {
+      assert.equal('touchAction', detect.touchAction)
+    } else {
+      assert.equal(null, detect.touchAction)
+    }
   })
 
   it('should be transitionend', function () {
