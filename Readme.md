@@ -3,6 +3,7 @@
 [![Build Status](https://secure.travis-ci.org/chemzqm/prop-detect.svg)](http://travis-ci.org/chemzqm/prop-detect)
 
   Detect animation properties, it's annoying to install each of them.
+  :smiley:
 
 ## Install
 
