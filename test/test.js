@@ -4,7 +4,7 @@ var detect = require('..')
 
 describe('prop-detect', function() {
   it('should be transition', function () {
-    assert(/transition/.test(detect.transition))
+    assert(/transition/i.test(detect.transition))
   })
 
   it('should be transform', function () {
