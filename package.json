@@ -39,8 +39,6 @@
   "dependencies": {
     "has-translate3d": "0.0.3",
     "touchaction-property": "0.0.1",
-    "transform-property": "0.0.1",
-    "transition-property": "^1.0.1",
-    "transitionend-property": "0.0.2"
+    "transition-property": "^1.0.1"
   }
 }
